@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("/css/certificate.css");
+
+body
+	{
+		margin:0px;
+		padding:0px;
+		background-color:#FFFFFF;
+	}
+h1,h2,h3,h4,h5,h6,span
+	{
+		margin:0px;
+		padding:0px;
+	}
+
+/*-- Header Part Starts Here  ---------------------------------------------------------------------------------------------*/
+
+#headerbg
+	{
+		width:100%;
+		height:130px;
+		background-color:#FFFFFF;
+		float:left;
+		margin:0px;
+		padding:0px;
+	}
+#headerblank
+	{
+		width:960px;
+		height:130px;
+		float: none;
+		margin:0 auto;
+		padding:0px;
+	}
+.f1
+	{
+		border:#FFFFFF;
+		border:0px;
+		width:100%;
+		margin:0px;
+		padding:0px;
+	}
+#header
+	{
+		width:960px;
+		height:130px;
+		float: left;
+		margin:0px;
+		padding:0px;
+		background-repeat:repeat-x;
+		background-position:bottom;
+	}
+#logo
+	{
+		width:86px;
+		height:115px;
+		float:left;
+		margin-top:10px;
+		margin-left:10px;
+		background-image:url(../images/logo.JPG);
+		background-repeat:no-repeat;
+	}
+#logotext
+	{
+		width:85px;
+		float:left;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		text-align:center;
+		font-size:8px;
+	}
+#header1
+	{
+		width:860px;
+		height:130px;
+		float:right;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+#collegename
+	{
+		float:left;
+		margin-top:15px;
+		padding:10px;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size:38px;
+		text-align:center;
+		color:#006699;
+		word-spacing:3px;
+	}
+.collegenametagline
+	{
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+		color:#333333;
+		word-spacing:0px;
+		line-height:1.8em;
+	}
+	
+/*-- Header Part Ends Here  ---------------------------------------------------------------------------------------------*/
+
+/*-- Content Part Starts Here     --------------------------------------------------------------------------------------------*/
+
+#contentbg
+	{
+		width:100%;
+		float:left;
+		margin:0px;
+		padding:0px;
+	}
+#contentblank
+	{
+		width:960px;
+		float: none;
+		margin:0 auto;
+		padding:0px;
+	}
+#content
+	{
+		width:960px;
+		float: left;
+		margin:0px;
+		padding:0px;
+	}
+#hallticketno
+	{
+		width:960px;
+		height:22px;
+		float:left;
+		text-align:center;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size:16px;
+		color:#006699;		
+	}
+/*-- Content Part Ends Here   --  --------------------------------------------------------------------------------------------*/
+
+/*-- Form  Part Starts Here   --  --------------------------------------------------------------------------------------------*/
+#adminlogin
+	{
+		width:325px;
+		height:40px;
+		float:left;
+		margin-top:15px;		
+	}
+#adminlogintxt
+	{
+		width:140px;
+		float:left;
+		height:25px;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size:20px;
+		color:#FFFFFF;
+		margin-top:8px;
+		margin-left:115px;
+	}
+#usename
+	{
+		width:325px;
+		height:30px;
+		margin-top:30px;
+		float:left;
+	}
+#name
+	{
+		width:110px;
+		height:20px;
+		float:left;
+		text-align:right;
+		margin-left:15px;
+		margin-top:5px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color:#000000;
+	}
+#password
+	{
+		width:165px;
+		height:23px;
+		float:left;
+		margin-left:5px;
+		margin-top:2px;
+	}
+#menu a
+	{
+		width:100px; 
+		float:right; 
+		height:30px; 
+		margin-top:5px; 
+		margin-left:30px; 
+		text-align:right; 
+		font-family:Verdana, Arial, Helvetica, sans-serif; 
+		font-size:14px; 
+		font-weight:600; 
+		color:#1A8DC6;
+		text-decoration:none;
+	}
+#menu a:hover
+	{
+		color:#05567B;
+	}
+/*-- Form Part Ends Here   ---------------------------------------------------------------------------------------------------*/
+
+/*-- Footer Part Starts Here   -----------------------------------------------------------------------------------------------*/
+
+#footerbg
+	{
+		width:100%;
+		height:32px;		
+		float:left;
+		margin:0px;
+		padding:0px;
+	}
+#footerblank
+	{
+		width:960px;
+		height:32px;
+		float: none;
+		margin:0 auto;
+		padding:0px;
+	}
+#footer
+	{
+		width:960px;
+		background-color:#006699;
+		height:32px;
+		float: left;
+		margin:0px;
+		padding:0px;
+	}
+#footerleft
+	{
+		width:500px;
+		height:18px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+		color:#FFFFFF;
+		float:left;
+		margin-top:8px;
+		margin-left:15px;
+		background-image:url(../images/allrightsreserved.JPG);
+		background-repeat:no-repeat;
+	}
+#footerright
+	{
+		width:400px;
+		height:30px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+		color:#FFFFFF;
+		float:right;
+		margin-top:1px;
+		text-align:right;
+		background-image:url(../images/footerimg.JPG);
+		background-repeat:no-repeat;
+		background-position:right;
+	}
+#footercounter
+	{
+		width:100px;
+		height:25px;
+		float:left;
+		margin-top:15px;
+	}
+
+/*-- Footer Part Ends Here   -----------------------------------------------------------------------------------------------*/
+
+/*-- FORm Style Starts Here   -----------------------------------------------------------------------------------------------*/
+
+#formstyle
+	{
+		width:960px;
+		float:left;
+	}
+#formstylediv1
+	{
+		width:960px;
+		height:130px;
+		float:left;	
+	}
+#formstylediv2
+	{
+		width:830px;
+		float:left;
+		height:130px;
+	}
+#formphoto
+	{
+		width:110px;
+		float:right;
+		height:130px;
+	}
+#formdiv
+	{
+		width:830px;
+		height:30px;
+		float:left;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size:18px;
+		color:#990000;
+	}
+
+
